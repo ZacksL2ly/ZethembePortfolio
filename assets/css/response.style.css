@@ -33,8 +33,12 @@
     .modal-content {
         width: 100%;       
     }
+    .hero-content {
+        padding: 30px 10px
+    }
     .hero-content .action{
         display: flex;
+        width: 100%;
     }
 }
 
