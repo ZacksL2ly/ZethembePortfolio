@@ -57,9 +57,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 // Disable right-click
-  // document.addEventListener('contextmenu', function(e) {
-  //   e.preventDefault();
-  // });
+  document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
 
 // Disabling key shortcuts
 document.addEventListener('keydown', function(e) {
