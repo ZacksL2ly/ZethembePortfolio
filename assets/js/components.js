@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () =>{
     }
     });
 
-  const texts = ["Professional Software Developer", "Frontend Developer", "Backend Developer", "UI/UX Designer", "Consultant"];
+  const texts = ["Professional Software Developer", "Frontend Developer", "Backend Developer", "UI/UX Designer", "Web Developer"];
   let count = 0;
   let index = 0;
   let currentText = '';
