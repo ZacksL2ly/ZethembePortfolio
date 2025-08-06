@@ -6,10 +6,11 @@ $(document).ready(function () {
 
     var textArray = [
         'E-commerce platform redesign and migration',
-        // 'Financial Services Website',
+        'Legal Services E-Commerce Website',
         'Automotive Parts of E-Commerce',
         'International Family Church',
-        'Women`s Fashion E-Commerce',
+        'Women`s Fashion E-Commerce',     
+        'Financial Services Website',
     ];
     
     var images = [
@@ -18,11 +19,12 @@ $(document).ready(function () {
          'assets/img/project1/home4.png', 'assets/img/project1/products.png', 'assets/img/project1/shoponline.png', 'assets/img/project1/prev-page.png', 'assets/img/project1/preview-product.png',
          'assets/img/project1/footer.png', 'assets/img/project1/cart.png', 'assets/img/project1/checkout.png', 'assets/img/project1/contact.png', 'assets/img/project1/contact-form.png'
         ],
-        //project2
-        // ['assets/img/project2/project2.png', 'assets/img/project2/appointment.png', 'assets/img/project2/home.png', 'assets/img/project2/home1.png', 'assets/img/project2/home2.png',
-        //  'assets/img/project2/home3.png', 'assets/img/project2/footer.png', 'assets/img/project2/about1.png', 'assets/img/project2/about.png', 'assets/img/project2/value.png', 'assets/img/project2/steps.png',
-        //  'assets/img/project2/services1.png','assets/img/project2/services.png', 'assets/img/project2/book-service.png', 'assets/img/project2/navbar.png', 'assets/img/project2/contact1.png', 'assets/img/project2/contact.png',
-        // ],
+         //project6
+        ['assets/img/project6/project6.png', 'assets/img/project6/home.png', 'assets/img/project6/home1.png', 'assets/img/project6/home2.png', 'assets/img/project6/home3.png', 'assets/img/project6/home4.png',
+        'assets/img/project6/navbar.png', 'assets/img/project6/footer.png', 'assets/img/project6/about.png', 'assets/img/project6/values.png', 'assets/img/project6/team.png','assets/img/project6/business1.png',
+        'assets/img/project6/business2.png', 'assets/img/project6/services.png', 'assets/img/project6/popup.png','assets/img/project6/shop.png','assets/img/project6/shop1.png','assets/img/project6/contact.png',
+        ],
+
         //project3
         ['assets/img/project3/project3.png', 'assets/img/project3/hero.png', 'assets/img/project3/home2.png', 'assets/img/project3/home3.png', 'assets/img/project3/home4.png',
          'assets/img/project3/home5.png', 'assets/img/project3/home5.png', 'assets/img/project3/footer.png', 'assets/img/project3/products.png', 'assets/img/project3/preview.png', 'assets/img/project3/cart.png',
@@ -38,6 +40,11 @@ $(document).ready(function () {
         'assets/img/project4/footer.png', 'assets/img/project4/products1.png', 'assets/img/project4/products.png', 'assets/img/project4/preview.png','assets/img/project4/cart.png',
         'assets/img/project4/checkout.png', 'assets/img/project4/contact.png',
         ],
+               //project2
+        ['assets/img/project2/project2.png', 'assets/img/project2/appointment.png', 'assets/img/project2/home.png', 'assets/img/project2/home1.png', 'assets/img/project2/home2.png',
+         'assets/img/project2/home3.png', 'assets/img/project2/footer.png', 'assets/img/project2/about1.png', 'assets/img/project2/about.png', 'assets/img/project2/value.png', 'assets/img/project2/steps.png',
+         'assets/img/project2/services1.png','assets/img/project2/services.png', 'assets/img/project2/book-service.png', 'assets/img/project2/navbar.png', 'assets/img/project2/contact1.png', 'assets/img/project2/contact.png',
+        ],
     ];
     
     var descriptions = [
@@ -46,11 +53,13 @@ $(document).ready(function () {
         ,'<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>','<a href="https://www.aludearts.co.za" target="_blank">Web Link</a>'
         ],
 
-        // ['<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
-        // ,'<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
-        // ,'<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
-        // ,'<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
-        // ],
+           ['<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>'
+        ,'<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>'
+        ,'<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>'
+        ,'<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>','<a href="https://visiondesignsword.co.za/hlatshwayoAttorneys/" target="_blank">Web Link</a>',
+        ],
+
+
      
         ['<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>'
         ,'<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>','<a href="https://samcoengines.co.za/" target="_blank">Web Link</a>'
@@ -64,9 +73,15 @@ $(document).ready(function () {
         ],
 
 
-         ['<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>'
+        ['<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>'
         ,'<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>'
         ,'<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>'
+        ],
+        //duplicated links
+             ['<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
+        ,'<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
+        ,'<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
+        ,'<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
         ],
     ];
     
@@ -91,24 +106,27 @@ $(document).ready(function () {
             exceededExpectations: true,
             exceededDetails: "Successfully maintained all existing functionality while improving user experience. Delivered a more maintainable solution that reduced client's content management time by 70%. Delivered on time as expected by the client."
         },
-    //    {
-    //         name: "Umnotho FS - Financial Services Website",
-    //         projectType: "Full Stack Developer",
-    //         briefInfo: "Umnotho FS is a licensed financial services provider, proudly regulated by the Financial Sector Conduct Authority (FSCA).",
-    //         isEcommerce: false,
-    //         myContribution: "Complete website development including service showcase, booking system integration, and content management. Handled both frontend design and backend functionality for their financial services platform.",
-    //         tools: [
-    //             { name: "WordPress" },
-    //             { name: "JavaScript" },
-    //             { name: "CSS3" },
-    //             { name: "Booking Plugin Integration" },
-    //             { name: "Contact Forms" }
-    //         ],
-    //         howICameUp: "Umnotho FS needed a professional mordern website to showcase their financial planning services and allow clients to book consultations. I created a trustworthy, informative platform that reflects their expertise in serving middle-income earners and professionals.",
-    //         paymentGateway: null,
-    //         exceededExpectations: true,
-    //         exceededDetails: "Delivered on time as expected by the client, providing a comprehensive solution with integrated booking system and complete service portfolio showcase. The website established strong online credibility and increased consultation bookings within the first month of launch."
-    //     },
+      {
+        name: "Legal Services E-Commerce Website",
+        projectType: "Full Stack Developer & UI/UX Designer",
+        briefInfo: "S. Hlatshwayo Attorneys Inc. is a dynamic law firm offering cutting-edge legal solutions in family law, estates, property law, commercial law and litigation",
+        isEcommerce: true,
+        designStatus: "redesigned",
+        myContribution: "Complete website redesign and development using WordPress with Elementor and custom coding. Created a modern, professional interface that reflects their legal expertise, implemented PayFast payment integration for legal service payments, and ensured full responsiveness across all devices. Delivered comprehensive full-stack solution on time.",
+        tools: [
+            { name: "WordPress"},
+            { name: "WooCommerce"},
+            { name: "Custom HTML/CSS & JS" },
+            { name: "PayFast Integration" },
+            { name: "Responsive Design" },
+            { name: "Optimization" }
+        ],
+        howICameUp: "Having an existing website, They needed a modern redesign that better reflected their status as a dynamic law firm offering cutting-edge legal solutions. I created a beautiful, professional design that showcases their expertise in various legal disciplines while maintaining the trust and credibility essential for a legal practice.",
+        paymentGateway: "PayFast",
+        websiteNote: "New redesigned version ready for deployment. Portfolio showcases the modern design currently being prepared for launch.",
+        exceededExpectations: true,
+        exceededDetails: "Delivered on time a stunning, fully responsive legal website with integrated payment processing for legal services. The modern design significantly enhanced their professional online presence while maintaining the trust factor crucial for legal services. Ready for deployment with comprehensive mobile optimization."
+        },
         {
             name: "Samco Engines - Automotive Parts E-Commerce",
             projectType: "Full Stack Developer & SEO at Infinity Growth",
@@ -164,7 +182,7 @@ $(document).ready(function () {
                 { name: "HTML5" },
                 { name: "PHP" },
                 { name: "MySQL" },
-                { name: "Bootstrap (fully responsive)" },
+                { name: "Bootstrap (responsive)" },
                 { name: "AJAX" },
                 { name: "Google Analytics" },
                 { name: "Basic SEO" },
@@ -174,7 +192,26 @@ $(document).ready(function () {
             websiteNote: "Portfolio shows new redesigned version. Live website displays our previous design while awaiting new version deployment.",
             exceededExpectations: true,
             exceededDetails: "Delivered a comprehensive redesigned e-commerce solution with modern UI, dual order tracking, robust product management system, and analytics integration. The new conversion-focused design with strategic call-to-actions is ready for launch pending final payment integration and client approval."
-        }
+        },
+       
+          {
+            name: "Umnotho FS - Financial Services Website",
+            projectType: "Full Stack Developer",
+            briefInfo: "Umnotho FS is a licensed financial services provider, proudly regulated by the Financial Sector Conduct Authority (FSCA).",
+            isEcommerce: false,
+            myContribution: "Complete website development including service showcase, booking system integration, and content management. Handled both frontend design and backend functionality for their financial services platform.",
+            tools: [
+                { name: "WordPress" },
+                { name: "JavaScript" },
+                { name: "CSS3" },
+                { name: "Booking Plugin Integration" },
+                { name: "Contact Forms" }
+            ],
+            howICameUp: "Umnotho FS needed a professional mordern website to showcase their financial planning services and allow clients to book consultations. I created a trustworthy, informative platform that reflects their expertise in serving middle-income earners and professionals.",
+            paymentGateway: null,
+            exceededExpectations: true,
+            exceededDetails: "Delivered on time as expected by the client, providing a comprehensive solution with integrated booking system and complete service portfolio showcase. The website established strong online credibility and increased consultation bookings within the first month of launch."
+        },
     ];
     
     var batchSize = 4;
