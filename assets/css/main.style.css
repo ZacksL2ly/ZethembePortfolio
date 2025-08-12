@@ -996,11 +996,12 @@ Contact Page style
 }
 
 .contact__form {
-    box-shadow: 0 6px 4px -5px rgb(142, 125, 190), 0 4px 10px 0 rgb(142, 125, 190), 0 4px 10px -5px rgb(142, 125, 190);
+    /* box-shadow: 0 6px 4px -5px rgb(142, 125, 190), 0 4px 10px 0 rgb(142, 125, 190), 0 4px 10px -5px rgb(142, 125, 190); */
     padding: 60px 30px;
     border-radius: 10px;
     background-color: #000;
     color: #ccc;
+    border: 2px solid #8e7dbe;
 }
 .contact__form textarea {
     height: 150px;
@@ -1035,7 +1036,8 @@ Contact Page style
     height: 100%;
     color: #fff;
     border-radius: 10px;
-    box-shadow: 0 8px 12px -12px rgb(142, 125, 190), 0 4px 8px 0 rgb(142, 125, 190), 0 8px 10px -5px rgb(39, 39, 39);
+    border: 2px solid #8e7dbe;
+    /* box-shadow: 0 8px 12px -12px rgb(142, 125, 190), 0 4px 8px 0 rgb(142, 125, 190), 0 8px 10px -5px rgb(39, 39, 39); */
 }
 
 .contact-details-container .each-detail-container .icon-wrap {
