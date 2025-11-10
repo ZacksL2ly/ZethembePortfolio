@@ -10,7 +10,7 @@ $(document).ready(function () {
         'Automotive Parts of E-Commerce',
         'International Family Church',
         'Women`s Fashion E-Commerce',     
-        'Financial Services Website',
+        // 'Financial Services Website',
     ];
     
     var images = [
@@ -41,10 +41,10 @@ $(document).ready(function () {
         'assets/img/project4/checkout.png', 'assets/img/project4/contact.png',
         ],
                //project2
-        ['assets/img/project2/project2.png', 'assets/img/project2/appointment.png', 'assets/img/project2/home.png', 'assets/img/project2/home1.png', 'assets/img/project2/home2.png',
-         'assets/img/project2/home3.png', 'assets/img/project2/footer.png', 'assets/img/project2/about1.png', 'assets/img/project2/about.png', 'assets/img/project2/value.png', 'assets/img/project2/steps.png',
-         'assets/img/project2/services1.png','assets/img/project2/services.png', 'assets/img/project2/book-service.png', 'assets/img/project2/navbar.png', 'assets/img/project2/contact1.png', 'assets/img/project2/contact.png',
-        ],
+        // ['assets/img/project2/project2.png', 'assets/img/project2/appointment.png', 'assets/img/project2/home.png', 'assets/img/project2/home1.png', 'assets/img/project2/home2.png',
+        //  'assets/img/project2/home3.png', 'assets/img/project2/footer.png', 'assets/img/project2/about1.png', 'assets/img/project2/about.png', 'assets/img/project2/value.png', 'assets/img/project2/steps.png',
+        //  'assets/img/project2/services1.png','assets/img/project2/services.png', 'assets/img/project2/book-service.png', 'assets/img/project2/navbar.png', 'assets/img/project2/contact1.png', 'assets/img/project2/contact.png',
+        // ],
     ];
     
     var descriptions = [
@@ -78,11 +78,11 @@ $(document).ready(function () {
         ,'<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>','<a href="https://blushwear.co.za/" target="_blank">Web Link</a>'
         ],
         //duplicated links
-       ['<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
-        ,'<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
-        ,'<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
-        ,'<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
-        ],
+       // ['<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
+       //  ,'<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
+       //  ,'<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
+       //  ,'<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>','<a href="https://umnothofs.co.za/" target="_blank">Web Link</a>'
+       //  ],
     ];
     
     // Detailed project information
@@ -194,24 +194,24 @@ $(document).ready(function () {
             exceededDetails: "Delivered a comprehensive redesigned e-commerce solution with modern UI, dual order tracking, robust product management system, and analytics integration. The new conversion-focused design with strategic call-to-actions is ready for launch pending final payment integration and client approval."
         },
        
-          {
-            name: "Umnotho FS - Financial Services Website",
-            projectType: "Full Stack Developer",
-            briefInfo: "Umnotho FS is a licensed financial services provider, proudly regulated by the Financial Sector Conduct Authority (FSCA).",
-            isEcommerce: false,
-            myContribution: "Complete website development including service showcase, booking system integration, and content management. Handled both frontend design and backend functionality for their financial services platform.",
-            tools: [
-                { name: "WordPress" },
-                { name: "JavaScript" },
-                { name: "CSS3" },
-                { name: "Booking Plugin Integration" },
-                { name: "Contact Forms" }
-            ],
-            howICameUp: "Umnotho FS needed a professional mordern website to showcase their financial planning services and allow clients to book consultations. I created a trustworthy, informative platform that reflects their expertise in serving middle-income earners and professionals.",
-            paymentGateway: null,
-            exceededExpectations: true,
-            exceededDetails: "Delivered on time as expected by the client, providing a comprehensive solution with integrated booking system and complete service portfolio showcase. The website established strong online credibility and increased consultation bookings within the first month of launch."
-        },
+        //   {
+        //     name: "Umnotho FS - Financial Services Website",
+        //     projectType: "Full Stack Developer",
+        //     briefInfo: "Umnotho FS is a licensed financial services provider, proudly regulated by the Financial Sector Conduct Authority (FSCA).",
+        //     isEcommerce: false,
+        //     myContribution: "Complete website development including service showcase, booking system integration, and content management. Handled both frontend design and backend functionality for their financial services platform.",
+        //     tools: [
+        //         { name: "WordPress" },
+        //         { name: "JavaScript" },
+        //         { name: "CSS3" },
+        //         { name: "Booking Plugin Integration" },
+        //         { name: "Contact Forms" }
+        //     ],
+        //     howICameUp: "Umnotho FS needed a professional mordern website to showcase their financial planning services and allow clients to book consultations. I created a trustworthy, informative platform that reflects their expertise in serving middle-income earners and professionals.",
+        //     paymentGateway: null,
+        //     exceededExpectations: true,
+        //     exceededDetails: "Delivered on time as expected by the client, providing a comprehensive solution with integrated booking system and complete service portfolio showcase. The website established strong online credibility and increased consultation bookings within the first month of launch."
+        // },
     ];
     
     var batchSize = 4;
@@ -356,5 +356,6 @@ $(document).ready(function () {
         modalBody.html(content);
     });
 });
+
 
 
