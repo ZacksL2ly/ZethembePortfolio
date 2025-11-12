@@ -1,9 +1,9 @@
 /* =================================
 General Style
 ==================================*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 html {
-    scrollbar-color: #8e7dbe #f1f1f1;
+    scrollbar-color: #b5179e #f1f1f1;
     scrollbar-width: thin;
 }
 html, body {
@@ -14,16 +14,16 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background: #8e7dbe;
+    background: #b5179e;
 }
 
 html::-webkit-scrollbar-thumb {
-    background: #8e7dbe;
+    background: #b5179e;
     border-radius: 10px;
 }
 
 html::-webkit-scrollbar-thumb:hover {
-    background: #8e7dbe;
+    background: #b5179e;
     border-radius: 10px;
 }
 
@@ -33,7 +33,7 @@ html::-webkit-scrollbar-thumb:active {
 }
 body{
     background: #000;
-    font-family: sans-serif, "Albert Sans", Roboto;
+    font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     box-sizing: border-box;
     width: 100%;
@@ -87,7 +87,7 @@ ul li{
 .ring.one {
   width: 80px;
   height: 80px;
-  border-top-color: #8e7dbe;
+  border-top-color: #b5179e;
 }
 
 .ring.two {
@@ -125,7 +125,7 @@ ul li{
 
 
 .btn-skyblue{
-    background: linear-gradient(40deg, #8e7dbe);
+    background: linear-gradient(40deg, #b5179e);
     padding: 10px;
     color: #fff;
     width: max-content;
@@ -138,9 +138,9 @@ ul li{
 .btn-yellow {
   padding: 10px 15px;
   color: #fff;
-  border: 1px solid #8e7dbe;
-  background: linear-gradient(90deg, #8e7dbe);
-  border-radius: 10px;
+  border: 1px solid #b5179e;
+  background: linear-gradient(90deg, #b5179e);
+  border-radius: 6px;
 }
 
 .btn-yellow:hover{
@@ -207,6 +207,7 @@ ul li{
 } */
 .nav-bar-section .nav-bottom-container {
     padding: 10px;
+    margin-inline-start: 3%;
 }
 .nav-bar-section .nav-bottom-container .icons-container {
     display: inline-flex;
@@ -214,12 +215,9 @@ ul li{
 .nav-bar-section .nav-bottom-container .icons-container .menu-button-container {
     display: none;
 }
-/* .nav-bar-section .is-sticky .nav-bottom-container .icons-container .menu-button-container {
-    border-color: #ccc;
-} */
 .nav-bar-section .nav-bottom-container .icons-container .menu-button-container button {
     color: #ffff;
-    background-color: #e6d013;
+    background-color: #b5179e;
     width: 50px;
     height: 50px;
     border: none;
@@ -230,19 +228,15 @@ ul li{
 }
 .nav-bar-section .is-sticky .nav-bottom-container .icons-container .menu-button-container button {
     color: #fff;
-    background: linear-gradient(40deg, #ccc, #8e7dbe);
+    background: linear-gradient(40deg, #ccc, #b5179e);
 }
-/* .nav-bar-section .nav-bottom-container .company-log-container,
-.nav-bar-section .nav-bottom-container .icons-container {
-    width: 200px;
-} */
 .company-log-container{
    max-width: 100%;
 }
 .company-log-container .logo{
    font-size: 2.1rem;
    font-weight: 900;
-   color: #8e7dbe;
+   color: #b5179e;
 }
 .nav-bar-section .nav-links-container {
     margin: 0px auto;
@@ -254,29 +248,29 @@ ul li{
 }
 
 .nav-bar-section .nav-links-container ul li {
-    padding: 0px 15px;
+    padding: 0px 20px;
 }
 .nav-bar-section .nav-links-container ul li a {
-    color: #fff;
+    color: #111;
     position: relative;
     cursor: pointer;
     font-size: 23px;
 }
 .nav-bar-section .nav-links-container ul li a.active {
-    color: #8e7dbe;
+    color: #b5179e;
 }
-.nav-bar-section .is-sticky .nav-links-container ul li a {
+/* .nav-bar-section .is-sticky .nav-links-container ul li a {
     color: #ccc;
-}
+} */
 .nav-bar-section .is-sticky .nav-links-container ul li a.link.active {
-    color: #8e7dbe;
+    color: #b5179e;
 }
 .nav-bar-section .nav-links-container ul li a.link::before {
     content: "";
     position: absolute;
     bottom: -5px;
     left: 0;
-    background-color: #8e7dbe;
+    background-color: #b5179e;
     width: 0;
     height: 2px;
     transition-duration: .5s;
@@ -291,7 +285,7 @@ ul li{
 }
 .nav-bar-section .is-sticky .nav-links-container ul li a.active::before,
 .nav-bar-section .is-sticky .nav-links-container ul li a:hover::before {
-    background: linear-gradient(60deg, #ccc, #8e7dbe);
+    background: linear-gradient(60deg, #ccc, #b5179e);
 }
 .nav-bottom-container .row {
     align-items: end;
@@ -303,10 +297,10 @@ ul li{
 .nav-bar-section .is-sticky .nav-top-container {
     background-color: #ccc;
 }
-.nav-bar-section .is-sticky .nav-bottom-container{
-    background-color: var(--glass-bg);
+.nav-bar-section .is-sticky .nav-container{
+    background-color: #e2e2e2;
     backdrop-filter: blur(10px);
-    box-shadow: 0 4px 8px rgba(238, 236, 236, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.099);
     transition-duration: .5s;
     margin-top: 0px;
     padding: 20px;
@@ -319,7 +313,7 @@ ul li{
     padding: 40px 0px 0px;
     background-color: #000;
     color: #fff;
-    box-shadow: 0px 0px 6px 0px #8e7dbe;
+    box-shadow: 0px 0px 6px 0px #111;
 }
 .footer-section footer h5{
     font-weight: bolder;
@@ -390,7 +384,7 @@ ul li{
 Home Page Style
 ==================================*/
 .hero {
-    background: #000;
+    background: #e2e2e2;
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -400,13 +394,12 @@ Home Page Style
 }
 .hero-content{
     padding: 40px 20px;
-    color: #fff;
+    color: #000;
 }
 .hero-content h1 {
   font-size: 2.6rem;
   font-weight: 900;
-  color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  color: #000;
 }
 
 .hero-content h2 {
@@ -415,14 +408,15 @@ Home Page Style
 }
 
 .hero-content h2 .typing {
-  color: #e6d013;
+  color: #b5179e;
   font-weight: bold;
 }
 
 .hero-content p {
   margin-top: 10px;
   line-height: 1.6;
-  color: #ccc;
+  color: #000;
+  font-weight: 300;
 }
 
 .hero-content .action{
@@ -430,25 +424,25 @@ Home Page Style
     margin-top: 10px;
 }
 .hero-content .btn {
-  background-color: #8e7dbe;
-  color: #000;
+  background-color: #b5179e;
+  color: #fff;
   padding: 12px 25px;
   text-decoration: none;
   border-radius: 10px;
-  font-weight: 500;
+
   box-shadow: 0 0 10px #fff;
   transition: 0.3s ease;
   animation: pulse 2s infinite;
 }
 .hero-content .btn-b {
   background-color: transparent;
-  color: #fff;
-  border: 2px solid #e6d013;
+  color: #000;
+  border: 1px solid #b5179e;
   padding: 8px 25px;
   text-decoration: none;
   border-radius: 10px;
-  font-weight: 500;
-  box-shadow: 0 0 10px #0D0D0D;
+
+  box-shadow: 0 0 10px hsl(309, 77%, 10%);
   transition: 0.3s ease;
   display: inline-flex;
   margin: auto 10px;
@@ -459,7 +453,7 @@ Home Page Style
 }
 
 .social-icons a {
-  color: #8e7dbe;
+  color: #b5179e;
   margin-right: 15px;
   font-size: 1.2rem;
   transition: 0.3s;
@@ -473,7 +467,7 @@ Home Page Style
 .hero-image {
   margin-top: 50%;
   padding: 40px 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+
 }
 
 .circle-border img {
@@ -485,13 +479,13 @@ Home Page Style
 /* Optional pulse animation */
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 10px #8e7dbe;
+    box-shadow: 0 0 10px #b5179e;
   }
   50% {
-    box-shadow: 0 0 20px #8e7dbe;
+    box-shadow: 0 0 20px #b5179e;
   }
   100% {
-    box-shadow: 0 0 10px #8e7dbe;
+    box-shadow: 0 0 10px #b5179e;
   }
 }
 
@@ -511,7 +505,7 @@ Home Page Style
   bottom: -100px;
   width: 20px;
   height: 20px;
-  background-color: #8e7dbe;
+  background-color: #b5179e;
   border-radius: 50%;
   animation: rise 10s infinite ease-in;
   opacity: 0.6;
@@ -571,7 +565,7 @@ Home Page Style
 //////////////////////////////////////////////////////////////////////////////// */
 .projects-section {
   padding: 40px 0px 40px 40px;
-  color: #fff;
+  background-color: #e2e2e2;
 }
 #imageContainer .loading, #loadMoreBtn{
     margin-top: 2%;
@@ -590,13 +584,13 @@ Home Page Style
     backdrop-filter: blur(12px);
 }
 #imageContainer .card {
-  box-shadow: 0px 0px 6px 0px #8e7dbe;
+  box-shadow: 0px 0px 6px 0px #111;
   cursor: pointer;
   border-radius: 8px;
   height: 100%;
   border: none;
   color: #fff;
-  background-color: #0D0D0D;
+  background-color: #000;
 }
 .card-img-top {
   height: 180px;
@@ -685,7 +679,7 @@ Home Page Style
 }
 .btn-primary:hover,
 .btn-skyblue:hover {
-  background-color: #8e7dbe;
+  background-color: #b5179e;
   border-color: #fff;
   color: #fff;
   filter: brightness(90%);
@@ -710,7 +704,7 @@ Home Page Style
 .projects-section .btn-info {
     position: relative;
     padding: 8px 12px;
-    border: 2px solid #8e7dbe;
+    border: 2px solid #fff;
     border-radius: 6px;
     background-color: transparent;
     color: #fff;
@@ -730,7 +724,7 @@ Home Page Style
     left: 0;
     width: 0%;
     height: 100%;
-    background-color: #8e7dbe;
+    background-color: #b5179e;
     z-index: -1;
     transition: width 0.4s ease;
      color: #fff;
@@ -741,7 +735,7 @@ Home Page Style
 }
 
 /* .btn-info:hover {
-    background-color: #8e7dbe;
+    background-color: #b5179e;
     transform: translateY(-2px);
 } */
 
@@ -864,15 +858,18 @@ Home Page Style
         skills section//
 //////////////////////////////////////////////////////////////////////////////// */
  .skills-section {
-    background-color: #000;
     padding: 50px 0;
-    color: #fff;
+    background-color: #e2e2e2;
     min-height: 100vh;
+}
+
+.skills-section .container h2{
+    color: #000;
 }
 
 .skills-section .card {
     background-color: #111;
-    border: 1px solid #8e7dbe;
+    border: 1px solid #e2e2e2;
     border-radius: 12px;
     transition: all 0.3s ease;
     height: 100%;
@@ -884,7 +881,7 @@ Home Page Style
 
 .skills-section .card:hover {
     transform: translateY(-5px);
-    border-color: #e6d013;
+    border-color: #000;
     box-shadow: 0 10px 30px rgba(230, 208, 19, 0.2);
 }
 
@@ -896,7 +893,7 @@ Home Page Style
 }
 
 .skills-section .card h4 {
-    color: #8e7dbe;
+    color: #b5179e;
     font-size: 24px;
     font-weight: 600;
 }
@@ -914,13 +911,13 @@ Home Page Style
 }
 
 .skills-section .card i {
-    color: #e6d013;
+    color: #fff;
     margin-bottom: 15px;
 }
 
 .skills-section .badge {
-    background-color: #8e7dbe;
-    color: #000;
+    background-color: #b5179e;
+    color: #ccc;
     font-weight: 500;
     padding: 6px 10px;
     font-size: 13px;
@@ -930,6 +927,7 @@ Home Page Style
 
 .skills-section .list-unstyled {
     text-align: left;
+    color: #fff;
 }
 
 .skills-section .list-unstyled i{
@@ -973,6 +971,7 @@ Contact Page style
 .Contact-Us {
     padding-top: 60px;
     padding-bottom: 40px;
+    background-color: #e2e2e2;
 }
 
 .title-heading-center{
@@ -1001,7 +1000,7 @@ Contact Page style
     border-radius: 10px;
     background-color: #000;
     color: #ccc;
-    border: 2px solid #8e7dbe;
+    border: 2px solid #ccc;
 }
 .contact__form textarea {
     height: 150px;
@@ -1019,7 +1018,7 @@ Contact Page style
 
 .contact__form .other-btn-theme {
     font-size: inherit;
-    background-color: #8e7dbe;
+    background-color: #b5179e;
     color: #ccc;
 }
 .contact__form .other-btn-theme:hover {
@@ -1036,7 +1035,7 @@ Contact Page style
     height: 100%;
     color: #fff;
     border-radius: 10px;
-    border: 2px solid #8e7dbe;
+    border: 2px solid #ccc;
     /* box-shadow: 0 8px 12px -12px rgb(142, 125, 190), 0 4px 8px 0 rgb(142, 125, 190), 0 8px 10px -5px rgb(39, 39, 39); */
 }
 
@@ -1056,11 +1055,11 @@ Contact Page style
 .Contact-Us .icon-wrap .icon-container {
     display: flex;
     justify-content: center;
-    background-color: #8e7dbe;
+    background-color: #b5179e;
     width: 60px;
     height: 60px;
     border-radius: 100%;
-    color: #fff;
+    color: #bcc;
 }
 
 /*//////////////////
@@ -1078,7 +1077,7 @@ Contact Page style
     background-color: #0D0D0D;
 }
 #hireModal .btn-close {
-    background-color: #e6d013;
+    background-color: #ccc;
     border: none;
     border-radius: 100%;
     width: 32px;
@@ -1106,7 +1105,7 @@ button.sendContactBtn:disabled {
     backdrop-filter: blur(12px);
 }
 #contactModal .btn-close {
-    background-color: #e6d013;
+    background-color: #ccc;
     border: none;
     border-radius: 100%;
     width: 32px;
@@ -1126,7 +1125,7 @@ button.sendContactBtn:disabled {
     padding-bottom: 10px;
 }
 .modal-footer button{
-  background-color: #8e7dbe;
+  background-color: #b5179e;
   color: #fff;
   padding: 8px 25px;
   width: 50%;
@@ -1141,7 +1140,7 @@ button.sendContactBtn:disabled {
 .modal-footer button:hover{
     width: 50%;
     transition-duration: .3s;
-    background: linear-gradient(60deg, #ccc, #e6d013);
+    background: linear-gradient(60deg, #ccc, #b5179e);
 }
 .modal-backdrop.show{
     opacity: 0;
