@@ -86,8 +86,8 @@ function navBarComponent(){
                             '<li><a class="link" href="#KnowMe"> About Me </a></li>'+
                             '<li><a class="link" href="#Projects"> Projects </a></li>'+
                             '<li><a class="link" href="#Expertise"> Expertise </a></li>'+
-                            '<li><a class="link" href="#Connect"> Contact </a></li>'+   
-                            '<li><a href="#" class="btn-yellow" data-bs-toggle="modal" data-bs-target="#contactModal"> Let`s Work Together </a></li>'+                               
+                            '<li><a class="link" href="#Connect"> Contact Me</a></li>'+   
+                            '<li><a href="#" class="btn-yellow" data-bs-toggle="modal" data-bs-target="#contactModal" style="color: #fff;"> Let`s Work Together </a></li>'+                               
                         '</ul>'+
                     '</div>'+
                     '<div class="icons-container">'+
@@ -98,7 +98,7 @@ function navBarComponent(){
                                     '<li><a class="link" href="#KnowMe"> About Me </a></li>'+
                                     '<li><a class="link" href="#Projects"> Projects </a></li>'+
                                     '<li><a class="link" href="#Expertise"> Expertise </a></li>'+
-                                    '<li><a class="link" href="#Connect"> Contact </a></li>'+       
+                                    '<li><a class="link" href="#Connect"> Contact Me</a></li>'+       
                                     '<li><a href="#" data-bs-toggle="modal" data-bs-target="#contactModal"> Let`s Work Together </a></li>'+                                                     
                                 '</ul>'+
                         '</div>'+
@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () =>{
     }
     });
 
-  const texts = ["Professional Software Developer", "Frontend Developer", "Backend Developer", "UI/UX Designer", "Content Creator"];
+  const texts = ["Professional Software Developer", "Frontend Developer", "Backend Developer", "UI/UX Designer", ""];
   let count = 0;
   let index = 0;
   let currentText = '';
